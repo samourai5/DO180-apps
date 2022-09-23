@@ -1,5 +1,6 @@
 var express = require('express');
 app = express();
+"scripts": { "start": "node app.js" },
 
 app.get('/', function (req, res) {
   res.send('Hello World!');
